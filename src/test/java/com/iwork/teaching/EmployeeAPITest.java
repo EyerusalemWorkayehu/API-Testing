@@ -20,7 +20,7 @@ public class EmployeeAPITest {
     private static Gson gson = builder.create();
 
     // Root URL for the API
-    static final String ROOT_URL = "https://iwork-employee-api.herokuapp.com/employees/";
+    static final String ROOT_URL = "https://iwork-employee-api.up.railway.app/employees/";
 
     // Generated random user
     private static Employee temp = null;
