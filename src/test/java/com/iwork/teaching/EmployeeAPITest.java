@@ -98,7 +98,7 @@ public class EmployeeAPITest {
                 .when().patch(ROOT_URL + temp.getId()).then().extract().response();
 
         // Check the content created status code
-        assertEquals(200, response.getStatusCode());
+        assertEquals(204, response.getStatusCode());
 
         // construct the employee in the response
         Employee received = new Employee(
